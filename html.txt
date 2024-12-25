@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreamturf Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #1e90ff;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f8f9fa;
+            padding: 0.5rem;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #1e90ff;
+            font-weight: bold;
+        }
+        .container {
+            padding: 2rem;
+            text-align: center;
+        }
+        .booking-form {
+            max-width: 400px;
+            margin: 2rem auto;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .booking-form input, .booking-form button {
+            width: 100%;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        footer {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Dreamturf</h1>
+    <p>Book your slots easily and enjoy the game!</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#booking">Book Now</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="home">
+    <h2>About Dreamturf</h2>
+    <p>Dreamturf offers a state-of-the-art facility for all your sports needs. Excellent lighting, well-maintained grounds, and ample parking make it the perfect spot for football, cricket, and other outdoor activities.</p>
+</div>
+
+<div class="container" id="booking">
+    <h2>Book Your Slot</h2>
+    <form class="booking-form">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="date" required>
+        <input type="time" required>
+        <button type="submit">Book Now</button>
+    </form>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: +123 456 7890</p>
+    <p>Email: info@dreamturf.com</p>
+    <p>Location: 123 Sports Avenue, Dream City, Country</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Dreamturf. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
